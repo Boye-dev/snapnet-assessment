@@ -1,5 +1,5 @@
 import { Sequelize } from "sequelize";
-export const sequelize = new Sequelize("snapnet_db", "root", "Redeem070.", {
+export const sequelize = new Sequelize("snapnet_db", "root", process.env.DB_PASSWORD, {
   host: "localhost",
   dialect: "mysql",
 });
