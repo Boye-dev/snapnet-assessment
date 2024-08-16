@@ -7,7 +7,7 @@
    
 2. Navigate to the project directory:
    ```bash
-   cd invoice-app
+   cd snapnet-app
    ```
    
 3. Create a `.env` file in the root directory and configure your environment variables:
